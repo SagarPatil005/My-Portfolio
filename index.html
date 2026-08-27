@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sagar Patil - Java Full Stack Developer Portfolio">
+  <title>Sagar Patil | Java Full Stack Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="90">
+
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <nav id="mainNav" class="navbar navbar-expand-lg fixed-top glass-nav">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">
+        <span class="brand-mark">S</span> Sagar<span class="accent">.</span>
+      </a>
+
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false">
+        <i class="bi bi-list fs-2"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn btn-accent btn-sm px-3" href="#contact">Let's Talk <i class="bi bi-arrow-up-right"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero-section">
+      <div class="hero-grid"></div>
+      <div class="floating-shape shape-one"></div>
+      <div class="floating-shape shape-two"></div>
+
+      <div class="container position-relative">
+        <div class="row align-items-center min-vh-100 py-5">
+          <div class="col-lg-7 pt-5">
+            <div class="availability-badge reveal">
+              <span class="pulse-dot"></span>
+              Available for opportunities
+            </div>
+
+            <p class="eyebrow mt-4 reveal">HELLO, I'M</p>
+
+            <h1 class="hero-title reveal">
+              Sagar <span>Patil</span>
+            </h1>
+
+            <h2 class="hero-role reveal">
+              <span id="typedText"></span><span class="cursor">|</span>
+            </h2>
+
+            <p class="hero-description reveal">
+              I build clean, scalable and user-friendly web applications
+              using Java, Spring Boot, databases and modern frontend technologies.
+            </p>
+
+            <div class="hero-buttons reveal">
+              <a href="#projects" class="btn btn-accent btn-lg me-2">
+                View My Work <i class="bi bi-arrow-down-right"></i>
+              </a>
+              <a href="#contact" class="btn btn-outline-light btn-lg">
+                Contact Me
+              </a>
+            </div>
+
+            <div class="social-links reveal">
+              <a href="https://github.com/SagarPatil005" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+              <a href="https://www.linkedin.com/in/sagarpatil8834/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+              <a href="mailto:sagarpatil8834@gmail.com" aria-label="Email"><i class="bi bi-envelope"></i></a>
+              <a href="#contact" aria-label="Contact"><i class="bi bi-chat-dots"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-5 pt-5">
+            <div class="hero-photo-wrap reveal">
+              <div class="orbit orbit-one"></div>
+              <div class="orbit orbit-two"></div>
+              <div class="photo-card">
+                <div class="photo-glow"></div>
+                <img src="assets/profile.jpg" alt="Sagar Patil profile photo"
+                     onerror="this.style.display='none'; document.getElementById('photoFallback').style.display='flex';">
+                <div id="photoFallback" class="photo-fallback">
+                  <i class="bi bi-person-fill"></i>
+                </div>
+                <div class="photo-badge">
+                  <i class="bi bi-code-slash"></i>
+                  <div>
+                    <strong>Java Developer</strong>
+                    <small>Building with purpose</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-down">
+        <span>Scroll</span>
+        <i class="bi bi-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">01</span>
+          <div>
+            <p class="eyebrow">ABOUT ME</p>
+            <h2>Turning ideas into <span>working products.</span></h2>
+          </div>
+        </div>
+
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-6 reveal">
+            <p class="lead-text">
+              I'm a BCA graduate focused on building my career as a Java Full Stack Developer.
+              I enjoy solving problems, learning backend technologies and creating applications
+              that are simple to use.
+            </p>
+            <p class="muted-text">
+              My current focus is Java, Spring, Spring Boot, Hibernate, MySQL and web development.
+              I also work with Git, Maven, REST APIs and responsive UI development.
+            </p>
+
+            <div class="about-stats row g-3 mt-3">
+              <div class="col-6">
+                <div class="stat-card">
+                  <strong>2025</strong>
+                  <span>BCA Graduate</span>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="stat-card">
+                  <strong>Java</strong>
+                  <span>Primary Stack</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 reveal">
+            <div class="about-card">
+              <div class="about-icon"><i class="bi bi-terminal"></i></div>
+              <h3>What I bring</h3>
+              <ul class="feature-list">
+                <li><i class="bi bi-check2-circle"></i> Strong Java & OOP fundamentals</li>
+                <li><i class="bi bi-check2-circle"></i> Spring Boot REST API development</li>
+                <li><i class="bi bi-check2-circle"></i> Hibernate / JPA & MySQL</li>
+                <li><i class="bi bi-check2-circle"></i> Responsive frontend development</li>
+                <li><i class="bi bi-check2-circle"></i> Git, Maven & clean project structure</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section-padding section-dark">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">02</span>
+          <div>
+            <p class="eyebrow">MY TOOLKIT</p>
+            <h2>Skills that help me <span>build.</span></h2>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3 reveal">
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-cup-hot"></i></div>
+              <h4>Backend</h4>
+              <div class="skill-tags">
+                <span>Java</span><span>Spring</span><span>Spring Boot</span><span>REST API</span><span>Hibernate</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 reveal">
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-window-stack"></i></div>
+              <h4>Frontend</h4>
+              <div class="skill-tags">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap</span><span>JSP</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 reveal">
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-database"></i></div>
+              <h4>Database</h4>
+              <div class="skill-tags">
+                <span>MySQL</span><span>SQL</span><span>JPA</span><span>Hibernate ORM</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 reveal">
+            <div class="skill-card">
+              <div class="skill-icon"><i class="bi bi-git"></i></div>
+              <h4>Tools</h4>
+              <div class="skill-tags">
+                <span>Git</span><span>GitHub</span><span>Maven</span><span>Tomcat</span><span>VS Code</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-marquee mt-5 reveal">
+          <div class="marquee-track">
+            <span>JAVA</span><span>SPRING BOOT</span><span>HIBERNATE</span><span>MYSQL</span><span>REST API</span>
+            <span>JAVASCRIPT</span><span>BOOTSTRAP</span><span>GIT</span><span>MAVEN</span>
+            <span>JAVA</span><span>SPRING BOOT</span><span>HIBERNATE</span><span>MYSQL</span><span>REST API</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section-padding">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">03</span>
+          <div>
+            <p class="eyebrow">FEATURED WORK</p>
+            <h2>Projects I've <span>built.</span></h2>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6 reveal">
+            <article class="project-card featured-project">
+              <div class="project-top">
+                <span class="project-number">01</span>
+                <div class="project-links">
+                  <a href="#" aria-label="GitHub project"><i class="bi bi-github"></i></a>
+                  <a href="#" aria-label="Live project"><i class="bi bi-box-arrow-up-right"></i></a>
+                </div>
+              </div>
+              <div class="project-visual visual-one">
+                <i class="bi bi-calendar2-check"></i>
+                <span>EMPLOYEE LEAVE MANAGEMENT</span>
+              </div>
+              <p class="project-label">JAVA • SPRING • HIBERNATE • MYSQL</p>
+              <h3>Employee Leave Management System</h3>
+              <p>
+                A role-based web application where employees can apply for leave
+                and administrators can manage employees, leave types and requests.
+              </p>
+              <div class="project-tags">
+                <span>Java</span><span>Servlet/JSP</span><span>Hibernate</span><span>MySQL</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-6 reveal">
+            <article class="project-card">
+              <div class="project-top">
+                <span class="project-number">02</span>
+                <div class="project-links">
+                  <a href="https://github.com/SagarPatil005" aria-label="GitHub project"><i class="bi bi-github"></i></a>
+                  <a href="https://sagarpatil005.github.io/clothing_website/" aria-label="Live project"><i class="bi bi-box-arrow-up-right"></i></a>
+                </div>
+              </div>
+              <div class="project-visual visual-two">
+                <i class="bi bi-cart3"></i>
+                <span>Online Clothing Store </span>
+              </div>
+              <p class="project-label">HTML5 • CSS3 • JavaScript • Bootstrap </p>
+              <h3>Online Clothing Store (frontend)</h3>
+              <p>
+                Developed a fully responsive online clothing store, •	Implemented a mobile-friendly, adaptive layout using Bootstrap's 
+                grid system across screen sizes. 
+              </p>
+              <div class="project-tags">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 reveal">
+            <article class="project-card small-project">
+              <div class="project-top"><span class="project-number">03</span></div>
+              <i class="bi bi-people project-big-icon"></i>
+              <h3>Student Management</h3>
+              <p>CRUD application using Spring MVC, Hibernate and MySQL.</p>
+              <div class="project-tags"><span>Spring MVC</span><span>Hibernate</span></div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 reveal">
+            <article class="project-card small-project">
+              <div class="project-top"><span class="project-number">04</span></div>
+              <i class="bi bi-bar-chart-line project-big-icon"></i>
+              <h3>Admin Dashboard</h3>
+              <p>Responsive dashboard UI with cards, tables and reusable components.</p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 reveal">
+            <article class="project-card small-project">
+              <div class="project-top"><span class="project-number">05</span></div>
+              <i class="bi bi-shield-lock project-big-icon"></i>
+              <h3>Authentication API</h3>
+              <p>Secure authentication flow prepared for a Spring Boot REST application.</p>
+              <div class="project-tags"><span>Spring Boot</span><span>REST</span></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section id="experience" class="section-padding section-dark">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">04</span>
+          <div>
+            <p class="eyebrow">Education</p>
+            <h2>Learning, building, <span>improving.</span></h2>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2025</span>
+              <h3>BCA Graduate</h3>
+              <p>Completed Bachelor of Computer Applications and started focusing on Java development.</p>
+            </div>
+          </div>
+
+         
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section-padding contact-section">
+      <div class="container">
+        <div class="contact-box reveal">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-7">
+              <p class="eyebrow">LET'S CONNECT</p>
+              <h2>Have a project or <span>opportunity?</span></h2>
+              <p>
+                I'm open to Java, backend, full-stack and software development opportunities.
+                Let's build something useful together.
+              </p>
+
+              <div class="contact-actions">
+                <a href="mailto:sagarpatil8834@gmail.com" class="btn btn-accent btn-lg">
+                  <i class="bi bi-envelope"></i> Email Me
+                </a>
+                <a href="https://www.linkedin.com/in/sagarpatil8834/" target="_blank" rel="noopener" class="btn btn-outline-light btn-lg">
+                  <i class="bi bi-linkedin"></i> LinkedIn
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-5">
+              <div class="contact-info">
+                <div class="contact-row">
+                  <i class="bi bi-envelope"></i>
+                  <div><small>Email</small><a href="mailto:sagarpatil8834@gmail.com">sagarpatil8834@gmail.com</a></div>
+                </div>
+                <div class="contact-row">
+                  <i class="bi bi-geo-alt"></i>
+                  <div><small>Location</small><span>Pune, Maharashtra, India</span></div>
+                </div>
+                <div class="contact-row">
+                  <i class="bi bi-briefcase"></i>
+                  <div><small>Looking for</small><span>Java / Software Roles</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <span>© <span id="year"></span> Sagar Patil</span>
+          <span>Built with Java mindset & web technologies.</span>
+          <a href="#home">Back to top <i class="bi bi-arrow-up"></i></a>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
